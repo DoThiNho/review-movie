@@ -3,10 +3,12 @@
 import React, { useReducer } from 'react'
 import Input from '../../components/Input'
 import { Box, Grid, Typography, Button } from '@mui/material'
+import { useRouter } from 'next/navigation';
 import Link from 'next/link'
 import 'public/assets/css/globals.css'
 
 const SignInModal = () => {
+  const router = useRouter()
   const [state, setState] = useReducer(
     (prevState : any, newState: any) => ({
       ...prevState,
@@ -26,6 +28,7 @@ const SignInModal = () => {
 
   const handleSignIn = () => {
     console.log(state)
+    router.push('/Home')
   }
 
   return (

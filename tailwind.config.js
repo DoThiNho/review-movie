@@ -16,13 +16,15 @@ module.exports = {
       colors: {
         primary: "#FF8036",
         white: "#fff",
-        black: "#000"
+        black: "#000",
+        muted: "#637394"
       },
       backgroundColor: {
         primary: "#FF8036",
         white: "#fff",
         black: "#000",
-        overlay: "#1F293D"
+        overlay: "#1F293D",
+        home: "#1A2232"
       }
     },
   },
