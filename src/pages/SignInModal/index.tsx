@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useReducer } from 'react'
 import Input from '../../components/Input'
 import { Box, Grid, Typography, Button } from '@mui/material'
