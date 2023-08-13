@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'signIn-right': "url('/assets/images/bg-right-signin.png')",
+        'signIn-right': "url('/assets/images/bg-right-signIn.png')",
         'signIn-left': "url('/assets/images/bg-left-signin.png')",
         'overlay': "url('/assets/images/bg-overlay.png')"
       },
