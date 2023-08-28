@@ -11,7 +11,8 @@ module.exports = {
       backgroundImage: {
         'signIn-right': "url('/assets/images/bg-right-signIn.png')",
         'signIn-left': "url('/assets/images/bg-left-signin.png')",
-        'overlay': "url('/assets/images/bg-overlay.png')"
+        'overlay': "url('/assets/images/bg-overlay.png')",
+        'sliderBg': "url('/assets/images/bg.svg')",
       },
       colors: {
         primary: "#FF8036",
