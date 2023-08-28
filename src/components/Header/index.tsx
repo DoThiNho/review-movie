@@ -80,7 +80,7 @@ const Header = () => {
   }
 
   return (
-    <Box sx={{ flexGrow: 1, width: "100%", background: "#1F293D" }}>
+    <Box sx={{ width: "100%", background: "#1F293D", height: "80px" }}>
       <AppBar position="static" sx={{ display: "flex", background: "#253554", height: "80px"}}>
         <Toolbar sx={{
           '&.MuiToolbar-root': {
