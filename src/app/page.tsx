@@ -1,11 +1,10 @@
-import SignInModal from '../pages/SignInModal'
 import 'public/assets/css/globals.css'
-
+import HomePage from "@/src/pages/HomePage"
 
 export default function Home() {
   return (
-    <main className="flex h-screen flex-col items-center justify-between bg-white">
-      <SignInModal/>
+    <main className="flex flex-col items-center bg-white">
+      <HomePage/>
     </main>
   )
 }

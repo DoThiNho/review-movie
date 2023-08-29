@@ -1,9 +1,17 @@
+"use client"
+
 import CenteredTabs from '@/src/components/Tab'
 import React from 'react'
 import 'public/assets/css/globals.css'
-import { Button } from '@mui/material'
+import { Button, Box } from '@mui/material'
+import ListMovie from '@/src/components/ListMovie';
+import ListReview from '@/src/components/ListReview';
+import Footer from '@/src/components/Footer';
+import Header from '@/src/components/Header'
+import Carousel from '@/src/components/CardSlider/Carousel'
 
-const titleTabs = ["All", "Latest", "Up coming", "Top rated"]
+const titleTabsCategories = ["All", "Latest", "Up coming", "Top rated"]
+const titleTabsGenre = ["Action", "Horror", "Comedy"]
 
 const movies = [
   {
@@ -64,22 +72,37 @@ const movies = [
   }
 ]
 
-const Home = () => {
+const HomePage = () => {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
   };
   return (
-    <div className='bg-home'>
+    <>
+      <Header />
+      <Carousel />
+      <div className='bg-home'>
       <CenteredTabs
-        titleTabs={titleTabs}
+        name= "Currently premiering"
+        titleTabs={titleTabsCategories}
         value={value}
         handleChange={handleChange}
-        movies={movies}
       />
+      <Box className="text-primary">
+          <ListMovie movies={movies} />
+      </Box>
+      <CenteredTabs
+        name= "Rating"
+        titleTabs={titleTabsGenre}
+        value={value}
+        handleChange={handleChange}
+      />
+      <ListReview/>
+      <Footer/>
     </div>
+    </>
   )
 }
 
-export default Home
+export default HomePage
