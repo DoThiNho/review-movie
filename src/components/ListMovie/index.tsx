@@ -4,11 +4,11 @@ import { Button, Grid } from '@mui/material';
 
 const ListMovie = ({ movies }: any) => {
     return (
-      <Grid container spacing={2} className='px-12 mt-4'>
+      <Grid container spacing={2} className='px-8 mt-4'>
         {movies?.map((movie: any) => (
           <Grid item xs={6} sm={4} md={3} lg={3} key={movie.id} className='flex justify-center'>
             <CardMovie
-            linkImg={movie.img}
+            linkImg={movie.image}
             title={movie.title}
             genre={movie.genre}
             rating={movie.rating}

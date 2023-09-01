@@ -1,19 +1,20 @@
 import { Box, Card, CardActions, CardContent, CardMedia, Grid, Typography } from '@mui/material'
 import React from 'react'
 
-interface CardReviewProps {
-    name?: string
-    img?: string
-    time?: string
-    text?: string
+interface RatingMovie {
+  title?: string;
+  image?: string;
+  releaseDate?: string;
+  description?: string;
+  rating?: number;
 }
 
-const CardReview = ({
-    name,
-    img,
-    time,
-    text
-}: CardReviewProps) => {
+interface CardRatingMovieProps {
+  ratingMovie: RatingMovie;
+}
+
+const CardRatingMovie = ({ ratingMovie }: CardRatingMovieProps) => {
+  const {title, image, releaseDate, description, rating} = ratingMovie
   return (
     <Card className='w-full h-[200px] mb-8 bg-[#1F293D]'>
       <Grid container spacing={2} className="flex h-full w-full m-0">
@@ -22,17 +23,17 @@ const CardReview = ({
                 component="img"
                 alt="green iguana"
                 style={{ width: "140px", height: "100%", objectFit: "cover", padding:"8px",  borderRadius: "10px" }}
-                image="/assets/images/the_batman.jpg"
+                image={image}
                 />
             <CardContent className="text-white">
                 <Typography gutterBottom variant="h5" component="div">
-                The Batman
+                  {title}
                 </Typography>
                 <Typography gutterBottom variant="body1" component="div">
-                6 April 2022, 14:40
+                {releaseDate}
                 </Typography>
                 <Typography variant="body2" className="text-muted w-full" style={{ overflowWrap: 'break-word', wordBreak: 'break-all' }}>
-                  An absolutely excellent, masterful final lap for the series with Reeves dedicating.., aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaâ
+                  {description}
                 </Typography>
 
 
@@ -40,7 +41,7 @@ const CardReview = ({
         </Grid>
         <Grid xs={2} className='h-full flex items-center justify-center'>
             <Typography gutterBottom variant="h4" component="div" className='text-primary'>
-                75%
+              {rating && rating * 10} %
             </Typography>
         </Grid>
       </Grid>
@@ -48,4 +49,4 @@ const CardReview = ({
   )
 }
 
-export default CardReview
+export default CardRatingMovie

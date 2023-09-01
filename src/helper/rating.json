@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/images/the_batman.jpg",
+        "description": "An absolutely excellent, masterful final lap for the series with Reeves dedicating.., aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaâ",
+        "title": "The Batman",
+        "genre": "Action, Adventure,...",
+        "releaseDate": "6 April 2022, 14:40",
+        "rating": 8.1
+    },
+    {
+        "id": 2,
+        "image":"/assets/images/uncharted.jpg",
+        "description": "An absolutely excellent, masterful final lap for the series with Reeves dedicating.., aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaâ",
+        "title": "Uncharted",
+        "genre": "Adventure, Action,...",
+        "releaseDate": "6 April 2022, 14:40",
+        "rating": 8.1
+    },
+    {
+        "id": 3,
+        "image": "/assets/images/The_Exorcism_of_God.jpg",
+        "description": "An absolutely excellent, masterful final lap for the series with Reeves dedicating.., aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaâ",
+        "title": "The Exorcism of God",
+        "genre": "Horror, Comedy",
+        "releaseDate": "6 April 2022, 14:40",
+        "rating": 8.1
+    },
+    {
+        "id": 4,
+        "image": "/assets/images/Turning_Red.jpg",
+        "description": "An absolutely excellent, masterful final lap for the series with Reeves dedicating.., aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaâ",
+        "title": "Turning Red",
+        "genre": "Comedy, Cartoon",
+        "releaseDate": "6 April 2022, 14:40",
+        "rating": 8.1
+    },
+    {
+        "id": 5,
+        "image": "/assets/images/the_batman.jpg",
+        "description": "An absolutely excellent, masterful final lap for the series with Reeves dedicating.., aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaâ",
+        "title": "The Batman",
+        "genre": "Action, Adventure,...",
+        "releaseDate": "6 April 2022, 14:40",
+        "rating": 8.1
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/images/the_batman.jpg",
+        "title": "The Batman",
+        "genre": "Action, Adventure,...",
+        "releaseDate": "11.08.2022",
+        "rating": 8.1
+    },
+    {
+        "id": 2,
+        "image":"/assets/images/uncharted.jpg",
+        "title": "Uncharted",
+        "genre": "Adventure, Action,...",
+        "releaseDate": "11.08.2022",
+        "rating": 8.1
+    },
+    {
+        "id": 3,
+        "image": "/assets/images/The_Exorcism_of_God.jpg",
+        "title": "The Exorcism of God",
+        "genre": "Horror, Comedy",
+        "releaseDate": "11.08.2022",
+        "rating": 8.1
+    },
+    {
+        "id": 4,
+        "image": "/assets/images/Turning_Red.jpg",
+        "title": "Turning Red",
+        "genre": "Comedy, Cartoon",
+        "releaseDate": "11.08.2022",
+        "rating": 8.1
+    },
+    {
+        "id": 5,
+        "image": "/assets/images/the_batman.jpg",
+        "title": "The Batman",
+        "genre": "Action, Adventure,...",
+        "releaseDate": "11.08.2022",
+        "rating": 8.1
+    },
+    {
+        "id": 6,
+        "image":"/assets/images/uncharted.jpg",
+        "title": "Uncharted",
+        "genre": "Adventure, Action,...",
+        "releaseDate": "11.08.2022",
+        "rating": 8.1
+    },
+    {
+        "id": 7,
+        "image": "/assets/images/The_Exorcism_of_God.jpg",
+        "title": "The Exorcism of God",
+        "genre": "Horror, Comedy",
+        "releaseDate": "11.08.2022",
+        "rating": 8.1
+    },
+    {
+        "id": 8,
+        "image": "/assets/images/Turning_Red.jpg",
+        "title": "Turning Red",
+        "genre": "Comedy, Cartoon",
+        "releaseDate": "11.08.2022",
+        "rating": 8.1
+    }
+  ]
